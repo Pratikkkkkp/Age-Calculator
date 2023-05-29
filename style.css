@@ -2,12 +2,14 @@ body {
     margin: 0;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    background-color: #f7f7f7;
+    background: rgb(159,4,191);
+    background: linear-gradient(90deg, rgb(195, 73, 211) 0%, rgba(105,4,170,1) 56%, rgba(85,12,207,1) 100%);
   }
   
   .container {
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+    background:linear-gradient(90deg, rgba(84, 12, 207, 0.792) 0%, rgba(106, 4, 170, 0.791) 56%, rgba(195, 73, 211, 0.625) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
@@ -34,27 +36,35 @@ body {
   }
   
   input {
+    background-color: #c896de;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1.99px solid #000000;
+    border-radius: 11px;
     width: 100%;
     max-width: 300px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
   }
   
   button {
     background-color: #007bff;
-    color: white;
-    border: none;
+    color: rgb(255, 255, 255);
+    border: 1.9px solid #000000 ;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 9px;
     margin-top: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
   }
   
   button:hover {
     background-color: #0062cc;
   }
+
+  input:hover {
+    background-color: #a86cc1;
+  }
+
   
   #result {
     margin-top: 20px;
