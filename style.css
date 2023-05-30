@@ -9,7 +9,7 @@ body {
   .container {
     
     background:linear-gradient(90deg, rgba(84, 12, 207, 0.792) 0%, rgba(106, 4, 170, 0.791) 56%, rgba(195, 73, 211, 0.625) 100%);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 50px rgba(202, 0, 0, 0.4);
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
