@@ -3,12 +3,12 @@ body {
     padding: 20px;
     font-family: "Montserrat", sans-serif;
     background: rgb(159,4,191);
-    background: linear-gradient(90deg, #434343 0%, black 100%);
+    background: linear-gradient(to left, #4f4b4b 0%, rgb(28, 27, 27) 100%);
   }
   
   .container {
     
-    background:linear-gradient(to right, #3f8269, #1e5492);
+    background:linear-gradient(to bottom ,  #55607b, #1e3550);
     box-shadow: 0 0 50px rgba(5, 5, 5, 0.735);
     padding: 20px;
     max-width: 600px;
